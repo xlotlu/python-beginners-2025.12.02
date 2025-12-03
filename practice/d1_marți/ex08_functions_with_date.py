@@ -20,7 +20,7 @@ def get_greeting():
     now = datetime.now()
     hour = now.hour
 
-    print(hour)
+    #print(hour)
 
     if 5 <= hour < 11:
         # hour >= 5 and hour < 11
@@ -35,5 +35,5 @@ def get_greeting():
         return "Noapte bună"
 
 result = get_greeting()
-print(result)
+#print(result)
     
