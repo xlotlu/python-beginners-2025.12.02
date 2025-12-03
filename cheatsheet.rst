@@ -18,6 +18,9 @@ Concepts:
 
 Python este self-documenting.
 
+"iterator": ????
+"yield":    ????
+
 
 Essential debugging tools:
 ==========================
