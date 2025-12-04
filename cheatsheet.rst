@@ -60,5 +60,55 @@ python -m IPython
 Lucrat cu IPython:
 ==================
 Ctrl+l  :: clear
-«la sfărșit de linie»? :: îți dă help
+?(la sfărșit de linie) :: îți dă help
 
+
+
+
+Metode utile de `str`:
+======================
+
+.split() / .join()
+
+
+.replace()
+
+
+.startswith() / .endswith()
+.removesuffix() / .removepreffix()
+.strip() / .lstrip() / .rstrip()
+
+# dacă aveți de făcut output columnar:
+.ljust() / .rjust() / .center()
+
+.casefold() # dacă aveți de făcut comparații case-insensitive
+
+.lower() / .upper()
+
+.find() / .index() # "pythonic" este `index()`
+
+
+.is*() # de știut că există
+
+
+
+Essential wisdom
+================
+
+Există 2 probleme cu adevărat grele în computing:
+- naming things
+- cache invalidation
+- off-by-one errors
+
+
+PEP-8 :: the styleguide
+https://peps.python.org/pep-0008/
+
+
+OCD = "obsessive-compulsive disorder"
+
+
+>>> import this
+
+
+Există 10 tipuri de oameni, cei care știu binar și cei care nu știu.
