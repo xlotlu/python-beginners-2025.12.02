@@ -27,7 +27,11 @@ Essential debugging tools:
 
 print()
 help()
-	  
+
+
+import ipdb
+ipdb.set_trace()
+
 
 Lucrat cu VSCode:
 =================
@@ -112,3 +116,11 @@ OCD = "obsessive-compulsive disorder"
 
 
 Există 10 tipuri de oameni, cei care știu binar și cei care nu știu.
+
+
+Essentials skills:
+- RTFM
+- STFW
+- ATFLLM ("prompt engineer")
+- **debugging**
+
